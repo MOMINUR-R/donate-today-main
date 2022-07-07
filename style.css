@@ -23,6 +23,7 @@ body, html {
     transform: translate(-50%, -50%);
 }
 h1{
+    box-align: center;
     font-size: 40px;
     font-weight: bolder;
 }
@@ -33,6 +34,7 @@ p{
 }
 .anchor-button{
     text-decoration: none;
+    border: none;
     background-color: #ff5959;
     padding: 10px 20px;
     border-radius: 5px;
@@ -67,4 +69,16 @@ p{
     border-radius: 5px;
     margin-top: 2em;
     margin-bottom: 2em;
+}
+#footer{
+    background-color:#050a14;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    font-family: italic;
+}
+#footer h1{
+    color: #ff5959;
+}
+#footer p{
+    color: white;
 }
